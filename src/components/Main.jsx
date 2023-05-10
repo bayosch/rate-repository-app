@@ -4,6 +4,7 @@ import RepositoryList from './RepositoryList.jsx';
 import AppBar from './AppBar';
 import { Route, Routes} from 'react-router-native';
 import LogInPage from '../pages/Login.jsx';
+import PrinterList from '../pages/PrinterList.jsx';
 
 const Main = () => {
     return (
@@ -11,7 +12,8 @@ const Main = () => {
             <AppBar />
             <Routes>
                 <Route path='/' exact element={<RepositoryList />} />
-                <Route path='/signin' exact element={<LogInPage />} />                
+                <Route path='/signin' exact element={<LogInPage />} />
+                <Route path='/extractor' exact element={<PrinterList />} />
             </Routes>
         </View>
         )

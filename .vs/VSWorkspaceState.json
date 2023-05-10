@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\components",
-    "\\src\\graphql",
     "\\src\\hooks",
-    "\\src\\utils"
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\App.js",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
