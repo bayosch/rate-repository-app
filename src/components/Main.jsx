@@ -11,9 +11,9 @@ const Main = () => {
         <View style={{ flex: 1 }}>
             <AppBar />
             <Routes>
-                <Route path='/' exact element={<RepositoryList />} />
-                <Route path='/signin' exact element={<LogInPage />} />
-                <Route path='/extractor' exact element={<PrinterList />} />
+                {/* <Route path='/' exact element={<RepositoryList />} /> */}
+                {/* <Route path='/signin' exact element={<LogInPage />} /> */}
+                <Route path='/' exact element={<PrinterList />} />
             </Routes>
         </View>
         )

@@ -8,8 +8,6 @@ const useFirestoreRepositories = () => {
         const queryCollection = collection(querydb, 'repositories');
         const response = await getDocs(queryCollection);
         const jsonResponse = response.docs.map(product => ({ ...product.data() }));
-        //const queryDoc = doc(querydb, 'repositories', '6diccyXv0KHBX4B3CsDm');
-        //const response = await getDoc(queryDoc);
         setRepositories(jsonResponse);
     }
 

@@ -34,7 +34,7 @@ const AppBarTab = ({ children, to }) => {
     return (
         <Link to={to}>
             <StyledText fontWeight='bold' style={textStyles}>
-                { children}
+                {children}
             </StyledText>
         </Link>
         );
@@ -45,10 +45,10 @@ const AppBar = () => {
     return (
         <View style={styles.container}>
             <ScrollView horizontal style={styles.scroll}>
-                <AppBarTab to='/'> Repositories</AppBarTab>
-                <AppBarTab to='/signin'>Sign in</AppBarTab>
-                <AppBarTab to='/extractor'>Printer List</AppBarTab>
-            </ScrollView>  
+                {/* <AppBarTab to='/'> Repositories</AppBarTab> */}
+                {/* <AppBarTab to='/signin'>Sign in</AppBarTab> */}
+                <AppBarTab to='/'>Lista de Impresoras</AppBarTab>
+            </ScrollView>
         </View>
         );
 }

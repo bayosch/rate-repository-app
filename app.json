@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "rate-repository-app",
+    "name": "fesa-monitoring",
     "slug": "rate-repository-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bayosch.raterepositoryapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c66a1da5-b4dd-4b87-978a-81c2af9ca1c0"
+      }
     }
   }
 }
